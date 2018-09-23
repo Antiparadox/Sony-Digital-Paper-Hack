@@ -372,7 +372,7 @@ var DPMW;
 
                                     resolve(filePath);
                                 });*/
-                                filepath = userfilepath
+                                filepath = '/Users/zhangyinuo/Library/Application\ Support/Sony\ Corporation/Digital\ Paper\ App/DigitalPaperApp/ws3ae0c7b2ee28497abcc55ef6dd9def8f/updater/FwUpdater.pkg'
                                 resolve(filepath);
                                 if (!isDialogOpened) {
                                     reject();
@@ -713,7 +713,7 @@ var DPMW;
                         })
                             .then(function () {
                             return new Promise(function (resolve, reject) {
-                                filePath = userfilepath;
+                                filePath = '/Users/zhangyinuo/Library/Application Support/Sony Corporation/Digital Paper App/DigitalPaperApp/ws3ae0c7b2ee28497abcc55ef6dd9def8f/updater/FwUpdater.pkg'
                                 var isDialogOpened = self.startTransferDeviceUpdater(filePath, fileSize, deviceId, deviceVersion, function (error) {
                                     if (error) {
                                         reject(error);

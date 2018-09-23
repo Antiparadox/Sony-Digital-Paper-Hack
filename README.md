@@ -8,6 +8,12 @@ cd into DPA folder, run "asar p <file path to /app/> app.asar"
 
 Replace the app.asar file under dir DigitalPaperApp/Contents/Resources/ with the provided app.asar file under DPA folder, then launch the Digital Paper App.
 
+you will be prompted to update, follow all procedures, and the update file would be immediately transferred into Digital Paper, bypassing validation and certificates. 
+
+Then the Device will install update pkg and reboot.
+
+If it says "Update Error", this is because the Firmware version has not been changed, 
+
 You can download the official firmware update for DPT-RP1 under firmware 1.4.01, this is the official version.
 
 This is only tested on MacOS, success is not guaranteed on Windows and other OS.
