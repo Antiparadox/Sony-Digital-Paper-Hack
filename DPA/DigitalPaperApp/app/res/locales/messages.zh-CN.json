@@ -1,0 +1,1064 @@
+{
+  "app": {
+    "defaultname": {
+      "screenshot": {
+        "prefix": "DP_"
+      }, 
+      "syncconflict": {
+        "prefix": "_conflicted_"
+      }
+    }, 
+    "format": {
+      "date": {
+        "type1": "{{dtYear}}/{{dtMonth}}/{{dtDate}}", 
+        "type2": "{{dtMonth}}/{{dtDate}}/{{dtYear}}"
+      }, 
+      "dateTime": "{{app.format.date}} {{app.format.time}}", 
+      "fileSize": {
+        "byte": "{{filesize}} Byte", 
+        "giga": "{{filesize}} GB", 
+        "kilo": "{{filesize}} KB", 
+        "mega": "{{filesize}} MB"
+      }, 
+      "time": {
+        "12h": {
+          "am": "上午 {{dtHour}}:{{dtMin}}", 
+          "pm": "下午 {{dtHour}}:{{dtMin}}"
+        }, 
+        "type1": "{{dtHour}}:{{dtMin}}", 
+        "type2": "{{dtHour}}:{{dtMin}}"
+      }
+    }, 
+    "language": {
+      "name": "Chinese(Simplified)"
+    }, 
+    "name": "Digital Paper App", 
+    "system": {
+      "win": {
+        "filetype": {
+          "document": "PDF (*.pdf)"
+        }
+      }
+    }, 
+    "words": {
+      "abort": "中止", 
+      "back": "返回", 
+      "cancel": "取消", 
+      "close": "关闭", 
+      "minutes": "分钟", 
+      "next": "下一步", 
+      "no": "否", 
+      "ok": "确定", 
+      "seconds": "秒", 
+      "skip": "跳过", 
+      "yes": "是"
+    }
+  }, 
+  "appInfo": {
+    "label": {
+      "version": "版本"
+    }, 
+    "title": "Digital Paper App版本信息", 
+    "version": {
+      "value": "{{version}}"
+    }
+  }, 
+  "config": {
+    "addTemplate": {
+      "button": {
+        "file": "选择文件"
+      }, 
+      "description": "添加创建笔记时所使用的模板。请选择PDF文件，并输入模板名。", 
+      "label": {
+        "fileName": "文件名", 
+        "templateName": "模板名"
+      }, 
+      "title": "添加模板"
+    }, 
+    "autosync": {
+      "interval": {
+        "hour_1": "60分钟", 
+        "min_10": "10分钟", 
+        "min_30": "30分钟", 
+        "min_90": "90分钟"
+      }, 
+      "label": {
+        "interval": "间隔"
+      }, 
+      "setting": {
+        "description": "启动Digital Paper App时，将按预定的间隔自动同步电子纸数据。", 
+        "off": "关闭", 
+        "on": "打开"
+      }
+    }, 
+    "btautoconnect": {
+      "description": "Digital Paper App将自动连接已完成Bluetooth匹配的电子纸。<br/>\n详情请浏览{{link}}。", 
+      "linkOfDescription": "此处", 
+      "off": "关闭", 
+      "on": "打开"
+    }, 
+    "button": {
+      "pairing": "匹配", 
+      "repairing": "重新设置匹配", 
+      "update": "更新"
+    }, 
+    "dp": {
+      "label": {
+        "serialId": "设备 ID", 
+        "version": "版本"
+      }
+    }, 
+    "generalSettings": {
+      "autosleep": {
+        "m10": "10分钟", 
+        "m30": "30分钟", 
+        "m5": "5分钟", 
+        "m60": "60分钟", 
+        "none": "永不"
+      }, 
+      "description": {
+        "autosleep": "在设置的时间内没有进行操作，进入睡眠模式。", 
+        "userName": "对文档注解的作者使用。"
+      }, 
+      "formatDate": {
+        "mdy": "月 / 日 / 年", 
+        "ymd": "年 / 月 / 日"
+      }, 
+      "formatTime": {
+        "hour12": "12 小时制", 
+        "hour24": "24 小时制"
+      }, 
+      "label": {
+        "autosleep": "自动睡眠", 
+        "button": {
+          "edit": "编辑"
+        }, 
+        "formatDate": "日期显示形式", 
+        "formatTime": "时间显示形式", 
+        "timezone": "时区", 
+        "userName": "用户名"
+      }, 
+      "timezone": {
+        "m1": "UTC -1:00", 
+        "m10": "夏威夷－阿留申标准时间", 
+        "m11": "UTC -11:00", 
+        "m12": "UTC -12:00", 
+        "m2": "UTC -2:00", 
+        "m3": "UTC -3:00", 
+        "m4": "大西洋标准时间", 
+        "m5": "美国东部标准时间", 
+        "m6": "美国中部标准时间", 
+        "m7": "美国山地标准时间", 
+        "m8": "美国太平洋标准时间", 
+        "m9": "阿拉斯加标准时间", 
+        "p1": "中欧标准时间", 
+        "p10": "UTC +10:00", 
+        "p11": "UTC +11:00", 
+        "p2": "东欧标准时间", 
+        "p3": "UTC +3:00", 
+        "p4": "UTC +4:00", 
+        "p5": "UTC +5:00", 
+        "p6": "UTC +6:00", 
+        "p7": "UTC +7:00", 
+        "p8": "中国标准时间", 
+        "p9": "日本标准时间", 
+        "utc": "UTC"
+      }, 
+      "title": "一般设置"
+    }, 
+    "label": {
+      "autosync": "自动同步", 
+      "btautoconnect": "Bluetooth 自动连接", 
+      "dp": "已匹配的电子纸", 
+      "generalSettings": "一般设置", 
+      "templates": "笔记模板", 
+      "wifiOnOff": {
+        "wifiSettings": "电子纸的Wi-Fi"
+      }, 
+      "wifiSettings": "已保存Wi-Fi网络列表"
+    }, 
+    "templates": {
+      "button": {
+        "addNew": "添加", 
+        "delete": "删除", 
+        "rename": "名称变更"
+      }
+    }, 
+    "title": "设置", 
+    "wifi": {
+      "title": "添加Wi-Fi网络", 
+      "wifiDetail": {
+        "status": {
+          "description": "无论电子纸是否处于可接受信号的范围内，Wi-Fi连接处于“未连接”或“连接中”状态时，所保存的信息可能不正确。请按下[返回]后确认设置。<br/>\n<br/>\n直接结束时，请按[关闭]。"
+        }
+      }
+    }, 
+    "wifiSettings": {
+      "button": {
+        "addNew": "添加", 
+        "delete": "删除", 
+        "edit": "编辑"
+      }, 
+      "description": "设置电子纸Wi-Fi时，请连接USB，并将[电子纸的Wi-Fi]置于[打开]。", 
+      "radio": {
+        "wifiOff": "关闭", 
+        "wifiOn": "打开"
+      }
+    }
+  }, 
+  "content": {
+    "init": {
+      "linkOfNoDeviceMsg": "此处", 
+      "noRegMsg": "请使用USB连接计算机与电子纸。<br/>\n开始设置与电子纸的匹配。<br/>\n<br/>\n稍等片刻后，计算机上仍未显示设置窗口时，请重新连接USB。<br/>\n请在电子纸启动的状态下进行该操作。", 
+      "parts": {
+        "noDeviceMsg": {
+          "i1": "1.", 
+          "i2": "2.", 
+          "i3": "3.", 
+          "p1": "请连接电子纸。", 
+          "p10": "连接指南", 
+          "p2": "识别电子纸需时几十秒左右。", 
+          "p3": "稍等片刻若仍未识别，则请确认以下事项。", 
+          "p4": "已接通电子纸电源{{icon}}。", 
+          "p5": "通过USB连接时<br />使用USB连接电子纸与计算机。", 
+          "p6": "使用Bluetooth功能连接时<br />已匹配Bluetooth。", 
+          "p7": "手动连接时，请按以下按钮。", 
+          "p8": "使用Wi-Fi连接时<br />连接到电子纸可与计算机通信的Wi-Fi网络。", 
+          "p9": "电子纸与计算机间的连接方式请浏览此处。"
+        }
+      }, 
+      "url": {
+        "noDeviceMsg": {
+          "cn": "http://www.sony.net/cn/dpt-rp1/connect-dp", 
+          "jp": "http://www.sony.co.jp/dpt-rp1/connect-dp", 
+          "us": "http://www.sony.net/dpt-rp1/connect-dp"
+        }
+      }
+    }, 
+    "list": {
+      "caption": {
+        "noItemDV": "无文档。", 
+        "noItemFV": "无文件夹及文档。", 
+        "noItemSearch": "未能找到符合条件的文件夹、文档。"
+      }, 
+      "header": {
+        "author": "作者", 
+        "dateAdded": "创建日期", 
+        "dateModified": "更新日期", 
+        "dateRead": "阅览日期", 
+        "file": "文件名", 
+        "size": "文件大小", 
+        "title": "标题"
+      }
+    }, 
+    "navi": {
+      "abbrev": "...", 
+      "allDoc": "所有文档", 
+      "label": {
+        "closeSearchResult": "关闭搜索结果", 
+        "searchPath": "搜索位置", 
+        "searchTarget": "搜索对象"
+      }, 
+      "root": "设备存储空间"
+    }, 
+    "sub": {
+      "label": {
+        "abort": "中止", 
+        "exporting": "正在传送至电子纸", 
+        "importing": "正在传送至电脑", 
+        "sep": "/", 
+        "sync": "正在与电脑同步", 
+        "syncstate": {
+          "abort": "已中止同步。", 
+          "complete": "已完成同步。", 
+          "error": "出现错误，现已中止同步。", 
+          "finish": "同步结束。但有错误。", 
+          "unsynced": "启动Digital Paper App后，尚未进行同步。"
+        }, 
+        "unit": "文件"
+      }
+    }
+  }, 
+  "desc": {
+    "func": {
+      "app": {
+        "launchSupportSite": "下面为您介绍电子纸相关最新信息及便捷使用方法。"
+      }
+    }
+  }, 
+  "dialog": {
+    "autoclose": {
+      "exportOnDocView": {
+        "message": "按下工具栏[文件夹]，切换显示后执行。", 
+        "title": "导入电子纸"
+      }
+    }, 
+    "choice": {
+      "button": {
+        "applyAll": "应用到全部"
+      }, 
+      "copy": {
+        "button": {
+          "keepBoth": "保持双方文件", 
+          "replace": "替换文件", 
+          "skip": "不替换文件直接跳过"
+        }
+      }, 
+      "description": {
+        "copy": "复制对象的文件夹中存在名称相同的文件。<br/>\n<br/>\n文件名<br/>\n{{fileName}}", 
+        "move": "移动对象的文件夹中存在名称相同的文件。<br/>\n<br/>\n文件名<br/>\n{{fileName}}"
+      }, 
+      "move": {
+        "button": {
+          "keepBoth": "保持双方文件", 
+          "replace": "替换文件", 
+          "skip": "不替换文件直接跳过"
+        }
+      }, 
+      "title": {
+        "copy": "复制", 
+        "move": "移动"
+      }
+    }, 
+    "choice2": {
+      "confirmDpPairing": {
+        "b1": "重置连接信息", 
+        "b2": "关闭", 
+        "message": "无法连接到电子纸。\n网络连接不稳定时，请选择[关闭]，并于通信稳定处重新连接或使用USB连接。\n\n电子纸初期化后首次连接时，请选择[重置连接信息]。", 
+        "title": "Digital Paper App"
+      }
+    }, 
+    "confirm": {
+      "abortExit": {
+        "message": "是否中止向电子纸传送文件，并结束Digital Paper App？", 
+        "title": "结束"
+      }, 
+      "abortExitEx": {
+        "message": "正在与电子纸之间传输文件，传输将会停止，是否继续？", 
+        "title": "确认"
+      }, 
+      "abortExporting": {
+        "message": "是否中止向电子纸进行传送？", 
+        "title": "确认"
+      }, 
+      "abortImporting": {
+        "message": "是否中止向计算机进行传送？", 
+        "title": "确认"
+      }, 
+      "abortSync": {
+        "message": "是否中止与计算机同步？", 
+        "title": "确认"
+      }, 
+      "abortTransferByUpdate": {
+        "message": "是否将电子纸软件的版本进行升级？\n开始升级后将中止文件传送。", 
+        "title": "软件升级"
+      }, 
+      "cancelDPAUpdate": {
+        "message": "是否中止Digital Paper App软件升级?", 
+        "title": "软件升级"
+      }, 
+      "cancelDPUpdate": {
+        "message": "是否中止电子纸的软件升级？", 
+        "title": "软件升级"
+      }, 
+      "delete": {
+        "message": "是否删除所选项目?"
+      }, 
+      "deleteTemplate": {
+        "message": "是否删除所选项目?", 
+        "title": "删除"
+      }, 
+      "deleteWifi": {
+        "message": "是否删除下一个Wi-Fi网络设置？\nSSID: {{ssid}}", 
+        "title": "删除"
+      }, 
+      "pairingCancel": {
+        "message": "是否取消与电子纸的匹配？\n\n重新开始匹配时，请重新连接USB，或通过菜单栏[工具] - [设置]中进行匹配。", 
+        "title": "连接电子纸"
+      }, 
+      "rePairing": {
+        "message": "是否设置连接的电子纸？\n\n选择电子纸，并进行匹配后，将重置所连接电子纸的连接信息。\n正在传送文件时，将中止传送。", 
+        "title": "重新设置匹配"
+      }, 
+      "releaseSyncFolder": {
+        "message": "是否解除同步设置？\n解除后，该文件夹内的文件夹、文件将不再与计算机进行同步。\n即使解除亦不会删除文件夹、文件。", 
+        "title": "解除同步设置"
+      }, 
+      "releaseSyncSettingByOperation": {
+        "message": "正在对该文件夹或子文件夹进行同步设置。\n执行该操作后，将解除同步设置。\n是否执行？"
+      }, 
+      "resetAndExit": {
+        "message": "是否重置目前连接的电子纸连接信息？\n\n重置后将删除同步对象的文件夹设置。\n\n选择[是]时将结束Digital Paper App。\n请重新启动，并进行与电子纸间的匹配。", 
+        "title": "重置连接信息"
+      }, 
+      "syncNow": {
+        "message": "已设置同步对象文件夹。\n是否立即开始同步？", 
+        "title": "设置同步对象文件夹。"
+      }
+    }, 
+    "edit": {
+      "fileName": {
+        "message": "请输入文件名。", 
+        "title": "名称变更"
+      }, 
+      "folderName": {
+        "message": "请输入文件夹名。", 
+        "title": "名称变更"
+      }, 
+      "installCertName": {
+        "message": "请输入证书名称。", 
+        "title": "安装证书"
+      }, 
+      "installCertPass": {
+        "message": "请输入证书密码。", 
+        "title": "安装证书"
+      }, 
+      "newFolder": {
+        "message": "请输入文件夹名。", 
+        "title": "新建文件夹"
+      }, 
+      "templateName": {
+        "message": "请输入笔记模板名称。", 
+        "title": "名称变更"
+      }
+    }, 
+    "error": {
+      "message": {
+        "1": "发生不明原因的错误。\n\n错误代码 {{errorCode}}", 
+        "10": "安装证书失败。\n进行匹配时需安装证书。\n\n错误代码 {{errorCode}}", 
+        "11": "无法添加Wi-Fi网络。\n保存于电子纸上的Wi-Fi网络数已达到上限。\n请删除多余Wi-Fi网络。\n\n错误代码 {{errorCode}}", 
+        "12": "无法登录Wi-Fi网络。\n未设置合理值。\n请确认输入的值。\n\n错误代码 {{errorCode}}", 
+        "14": "传送中止。\n未找到传送源位置的以下文件。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "16": "文件名中无法使用以下字符。\n　　/\n请输入其他名称。\n\n错误代码 {{errorCode}}", 
+        "18": "文件夹名中无法使用以下字符。\n　　/\n请输入其他名称。\n\n错误代码 {{errorCode}}", 
+        "19": "传送中止。\n文件路径长度超过上限。\n请缩短文件名，或保存至其他文件夹。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "2": "无法启动应用程序。\n应用程序已损坏。\n卸载Digital Paper App，并重新安装。\n\n错误代码 {{errorCode}}", 
+        "20": "传送中止。\n文件夹路径长度超过上限。\n请缩短文件夹名，或保存至其他文件夹。\n\n文件夹名\n{{folder}}\n\n错误代码{{errorCode}}", 
+        "21": "存在名称相同的文件。\n请输入其他文件名。\n\n错误代码 {{errorCode}}", 
+        "22": "存在名称相同的文件夹。\n请输入其他文件夹名。\n\n错误代码 {{errorCode}}", 
+        "23": "传送中止。\n保存对象可用空间不足。\n请删除无用文件、或选择其他保存对象。\n\n错误代码 {{errorCode}}", 
+        "24": "无法执行。\n电子纸可用空间不足。\n请删除不需要的文件。\n\n错误代码 {{errorCode}}", 
+        "26": "与电子纸的匹配失败。\n超过一定时间，发生超时。\n请重新匹配。\n\n错误代码 {{errorCode}}", 
+        "27": "传送中止。\n下述文件正在其他应用程序中使用。\n请中止使用该文件的应用程序。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "28": "传送中止。\n无法访问以下文件。\n请确认访问许可的设置。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "29": "传送中止。\n无法写入以下文件夹。\n请确认访问许可设置、或选择其他保存对象。\n\n文件夹名\n{{folder}}\n\n错误代码 {{errorCode}}", 
+        "3": "无法执行对电子纸的操作。\n\n错误代码 {{errorCode}}", 
+        "31": "无法变更名称。\n文件名长度超过可注册的上限。\n请输入其他名称。\n\n错误代码 {{errorCode}}", 
+        "32": "无法执行。\n存在名称相同的文件。\n请变更模板名称。\n\n错误代码 {{errorCode}}", 
+        "33": "无法确认升级。\n无法连接到网络。\n请确认计算机的网络连接。\n\n错误代码 {{errorCode}}", 
+        "34": "升级失败。\n无法连接到网络。\n请确认计算机的网络连接，并重新升级。\n\n错误代码 {{errorCode}}", 
+        "35": "无法传送。\n请确认计算机与电子纸是否连接正确。\n\n错误代码 {{errorCode}}", 
+        "36": "无法升级。\n电子纸电池电量过低。\n请在充电后重新升级。\n\n错误代码 {{errorCode}}", 
+        "37": "无法登录Wi-Fi网络。\n\n错误代码 {{errorCode}}", 
+        "38": "无法登录Wi-Fi网络。\n超过一定时间，发生超时。\n请重新进行Wi-Fi设置。\n\n错误代码 {{errorCode}}", 
+        "39": "无法登录Wi-Fi网络。\n需要登录的无线路由器使用了不支持的加密方式。\n请变更无线路由器加密方式、或连接到支持的Wi-Fi网络。\n\n错误代码 {{errorCode}}", 
+        "4": "电子纸软件版本过低，需要升级。\n请使用USB连接电子纸，并通过菜单[帮助] - [软件升级]进行升级。\n\n错误代码 {{errorCode}}", 
+        "40": "无法登录Wi-Fi网络。\n无线路由器可能设定了Protected Setup™ 保护模式。\n\n错误代码 {{errorCode}}", 
+        "41": "无法登录Wi-Fi网络。\n电子纸正在执行其他操作。\n请稍后重新登录。\n\n错误代码 {{errorCode}}", 
+        "42": "无法连接到电子纸。\n连接的电子纸匹配无效。\n请重新匹配。\n\n错误代码 {{errorCode}}", 
+        "43": "无法打开电子纸Wi-Fi。\n电子纸电池电量过低。\n请在充电后重新打开Wi-Fi。\n\n错误代码 {{errorCode}}", 
+        "44": "无法打开电子纸Wi-Fi。\n电子纸正在执行其他操作。\n请稍等片刻后重新打开Wi-Fi。\n\n错误代码 {{errorCode}}", 
+        "45": "无法打开电子纸Wi-Fi。\n请稍等片刻后重新打开Wi-Fi。\n\n错误代码 {{errorCode}}", 
+        "46": "无法安装证书。\n电子纸不支持该证书文件格式。\n请选择支持格式的证书。\n\n错误代码 {{errorCode}}", 
+        "47": "无法安装证书。\n证书文件内容不正确。\n请咨询证书颁发方。\n\n错误代码 {{errorCode}}", 
+        "48": "无法安装证书。\n\n错误代码 {{errorCode}}", 
+        "49": "安装证书失败。\n证书密码不正确。\n\n错误代码 {{errorCode}}", 
+        "5": "连接电子纸需安装新版本的Digital Paper App。\n请通过以下URL下载并安装最新版本。\n\nwww.sony.net/cn/dpapp\n\n错误代码 {{errorCode}}", 
+        "51": "无法开始升级。\n电子纸正在执行其他操作。\n请稍等片刻后重新升级。\n\n错误代码 {{errorCode}}", 
+        "52": "无法登记笔记模板。\n笔记模板数量已达到可登记上限。\n请删除多余模板。\n\n错误代码 {{errorCode}}", 
+        "54": "无法执行。\n未找到所选择的笔记模板。\n\n错误代码 {{errorCode}}", 
+        "57": "无法执行。\n未找到指定文件夹。\n请单击列表上的当前文件夹，重新进行显示。\n\n文件夹名\n{{folder}}\n\n错误代码 {{errorCode}}", 
+        "58": "传送中止。\n未找到传送源位置的以下文件夹。\n\n文件夹名\n{{folder}}\n\n错误代码 {{errorCode}}", 
+        "59": "无法变更名称。\n文件夹名长度超过可注册的上限。\n请输入其他名称。\n\n错误代码 {{errorCode}}", 
+        "6": "连接电子纸需安装新版本的Digital Paper App。\n请通过以下URL下载并安装最新版本。\n\nwww.sony.net/cn/dpapp\n\n错误代码 {{errorCode}}", 
+        "60": "无法添加笔记模板。\n请确认未使用密码对文件进行保护，或是否能够通过电子纸进行显示。\n\n错误代码 {{errorCode}}", 
+        "61": "无法添加笔记模板。\n根据安全设置，不得对该PDF文件进行编辑。\n\n错误代码 {{errorCode}}", 
+        "62": "无法添加笔记模板。\n文件大小超过上限。\n\n错误代码 {{errorCode}}", 
+        "63": "无法粘贴。\n欲粘贴的文件夹为原文件夹的子文件夹。\n\n错误代码 {{errorCode}}", 
+        "65": "无法连接到电子纸。\n请确认计算机与电子纸是否连接正确。\n\n错误代码 {{errorCode}}", 
+        "66": "无法通过电子纸打印。\n如需通过电子纸打印，请匹配计算机与电子纸。\n\n错误代码 {{errorCode}}", 
+        "67": "无法打印到电子纸。\n未能找到打印数据。\n\n错误代码 {{errorCode}}", 
+        "68": "无法打印到电子纸。\n未能找到Digital Paper App。\n\n错误代码 {{errorCode}}", 
+        "69": "粘贴中止。\n未找到传送源位置的以下文件。\n\n文件名\n{{fileFolder}}\n\n错误代码 {{errorCode}}", 
+        "7": "无法连接到电子纸。\n请通过[设置] - [重新设置匹配]与电子纸进行匹配。\n\n错误代码 {{errorCode}}", 
+        "70": "粘贴中止。\n未找到传送源位置的以下文件夹。\n\n文件夹名\n{{fileFolder}}\n\n错误代码 {{errorCode}}", 
+        "71": "粘贴中止。\n未能找到传送对象的以下文件夹。 \n\n文件夹名\n{{folder}}\n\n错误代码 {{errorCode}}", 
+        "72": "未能完成处理。\n电子纸超时。\n\n错误代码 {{errorCode}}", 
+        "73": "传送中止。\n未能找到传送对象的以下文件夹。\n\n文件夹名\n{{folder}}\n\n错误代码 {{errorCode}}", 
+        "74": "无法传送。\n仅可向电子纸传送PDF文件。\n\n错误代码 {{errorCode}}", 
+        "75": "无法执行。\n\n错误代码 {{errorCode}}", 
+        "76": "无法执行。\n无法读取文件。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "77": "无法执行。\n无法写入。\n\n错误代码 {{errorCode}}", 
+        "78": "无法传送。\n无法读取文件。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "79": "无法传送。\n无法写入文件。\n\n文件名\n{{file}}\n\n错误代码 {{errorCode}}", 
+        "8": "与电子纸的匹配失败。\n请重新匹配。\n\n错误代码 {{errorCode}}", 
+        "80": "无法设置同步对象文件夹。\n指定文件夹中含同步对象文件夹。\n请选择其他文件夹。\n\n错误代码 {{errorCode}}", 
+        "81": "无法设置同步对象文件夹。\n无法将所选择的文件夹设置为同步对象文件夹。\n请选择其他文件夹。\n\n错误代码 {{errorCode}}", 
+        "82": "无法解除同步设置。\n请选择设置同步对象文件夹时所指定的文件夹。\n\n错误代码 {{errorCode}}", 
+        "83": "无法设置同步对象文件夹。\n选择文件夹中包含同步对象文件夹。\n\n错误代码 {{errorCode}}", 
+        "84": "无法设置同步对象文件夹。\n同步对象中设置的文件夹数量已达到上限。\n\n错误代码 {{errorCode}}", 
+        "85": "无法设置同步对象文件夹。\n选择文件夹已设置为同步对象文件夹。\n\n错误代码 {{errorCode}}", 
+        "86": "同步中止。\n\n错误代码 {{errorCode}}", 
+        "87": "无法升级。\n升级文件下载失败。\n\n错误代码 {{errorCode}}", 
+        "88": "无法确认升级。\n请稍等片刻后重新执行。\n\n错误代码 {{errorCode}}", 
+        "89": "无法执行。\n同步过程中，无法对正在同步中的文件夹进行操作。 \n请在结束同步后进行操作。\n\n错误代码 {{errorCode}}", 
+        "9": "认证密码错误。\n请重新匹配。\n\n错误代码 {{errorCode}}", 
+        "90": "无法连接Bluetooth。\n该计算机中已登录多个电子纸作为Bluetooth设备。 \n请从计算机中删除即将连接的电子纸以外的其它电子纸设备。\n\n错误代码 {{errorCode}}", 
+        "91": "无法执行对电子纸的处理。\n\n错误代码 {{errorCode}}", 
+        "92": "无法打开电子纸Wi-Fi。\n请在解除电子纸睡眠模式后，重新打开Wi-Fi。\n\n错误代码 {{errorCode}}", 
+        "93": "无法打开电子纸Wi-Fi。\n\n错误代码 {{errorCode}}", 
+        "94": "无法执行。\n正在进行软件升级。\n\n错误代码 {{errorCode}}", 
+        "95": "无法打印到电子纸。\n请确认计算机与电子纸是否连接正确。\n\n错误代码 {{errorCode}}"
+      }
+    }, 
+    "nobtn": {
+      "wait": {
+        "message": "正在连接电子纸…", 
+        "title": "Digital Paper App"
+      }
+    }, 
+    "notice": {
+      "addedSyncFolder": {
+        "title": "设置同步对象文件夹。"
+      }, 
+      "btUnrecoverableError": {
+        "message": "Bluetooth连接发生错误。\n请在结束Digital Paper App后尝试以下操作。\n\n- 关闭计算机Bluetooth功能后重新打开。\n- 关闭电子纸Bluetooth功能后重新打开。\n- 重启计算机。", 
+        "title": "Digital Paper App"
+      }, 
+      "exportOnDocView": {
+        "message": "按下工具栏[文件夹]，并切换显示后执行。", 
+        "title": "导入文档到电子纸"
+      }, 
+      "foundMultiBtDps": {
+        "message": "该计算机中已登录多个电子纸作为Bluetooth设备。 \n请从计算机中删除即将连接的电子纸以外的其它电子纸设备。", 
+        "title": "连接"
+      }, 
+      "latestSoftware": {
+        "message": "所使用的软件为最新版本。"
+      }, 
+      "newerAppFound": {
+        "message": "发现最新Digital Paper App。\n如需升级Digital Paper App，请通过以下URL下载并安装。\nwww.sony.net/cn/dpapp", 
+        "title": "软件升级"
+      }, 
+      "newerSoftwareFoundByWiFi": {
+        "message": "发现最新电子纸软件。\n如需升级本体软件，请在连接USB后，执行菜单的[{{menu.category.help}}] - [{{func.app.softwareUpdate}}]。"
+      }, 
+      "syncAborted": {
+        "message": "已中止同步。", 
+        "title": "同步"
+      }, 
+      "syncAddDuplicate": {
+        "message": "无法设置同步对象文件夹。\n选择文件夹已设置为同步文件夹", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "syncAddIncludeSyncFolder": {
+        "message": "无法设置同步对象文件夹。\n指定文件夹中含同步文件夹。\n请选择其他文件夹。", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "syncAddMax": {
+        "message": "无法设置同步对象文件夹。\n同步设置的文件夹数量已达到上限。", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "syncAddSyncSubfolder": {
+        "message": "无法设置同步对象文件夹。\n选择文件夹包含在同步文件夹中。", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "syncAddSyncing": {
+        "message": "无法设置同步对象文件夹。 \n请在结束同步后进行操作。", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "syncComplete": {
+        "message": "已完成同步。", 
+        "title": "同步"
+      }, 
+      "syncError": {
+        "message": "出现错误，现已中止同步。", 
+        "title": "同步"
+      }, 
+      "syncMissingDpFolder": {
+        "message": "电子纸中未能找到同步设置的文件夹。\n解除该文件夹同步设置。\n\n文件夹\n{{folderPath}}", 
+        "title": "同步"
+      }, 
+      "syncMissingPcFolder": {
+        "message": "计算机中未能找到同步设置的文件夹。\n解除该文件夹同步设置。\n\n文件夹\n{{folderPath}}", 
+        "title": "同步"
+      }, 
+      "syncNoPcFolder": {
+        "message": "计算机中未能找到同步对象的文件夹。\n\n文件夹\n{{folderPath}}", 
+        "title": "打开同步对象文件夹"
+      }, 
+      "syncSettingCondition": {
+        "message": "选择一个文件夹后执行。", 
+        "title": "设置同步对象文件夹。"
+      }, 
+      "unsynced": {
+        "message": "启动Digital Paper App后，尚未进行同步。", 
+        "title": "同步"
+      }, 
+      "updateTransfered": {
+        "message": "完成向电子纸传送升级文件，开始升级。\n升级完成后将重新连接，请稍等。\n稍等片刻后仍未更新画面时，请重启Digital Paper App。"
+      }
+    }, 
+    "title": {
+      "error": "Digital Paper App", 
+      "softwareUpdate": "软件升级"
+    }, 
+    "wait": {
+      "connectingWifi": {
+        "message": "正在连接到Wi-Fi网络..."
+      }, 
+      "message": "请稍等...", 
+      "title": "Digital Paper App"
+    }
+  }, 
+  "func": {
+    "app": {
+      "about": "Digital Paper App相关事项", 
+      "launchSupportSite": "产品信息网站", 
+      "onlineHelp": "帮助指南", 
+      "quit": "结束", 
+      "softwareUpdate": "软件升级"
+    }, 
+    "config": {
+      "manageProfile": "更换电子纸", 
+      "showConfig": "设置"
+    }, 
+    "dp": {
+      "externalOutput": "截屏", 
+      "fullScreen": "全屏显示", 
+      "screenshot": "保存为图像", 
+      "toast": {
+        "howToEnterFullScreenMode": "按下F键开始全屏显示。", 
+        "howToLeaveFullScreenMode": "按下ESC键结束全屏显示。"
+      }
+    }, 
+    "edit": {
+      "copy": "复制", 
+      "cut": "剪切", 
+      "paste": "粘贴", 
+      "selectall": "选择所有"
+    }, 
+    "fileDP": {
+      "copy": "复制（电子纸内）", 
+      "cut": "剪切（电子纸内）", 
+      "delete": "删除", 
+      "import": "从电子纸中取出", 
+      "moveToFileFolder": "打开文件所在位置", 
+      "open": "打开", 
+      "openOnDP": "通过电子纸打开", 
+      "paste": "粘贴（电子纸内）", 
+      "rename": "名称变更"
+    }, 
+    "fileManage": {
+      "createFolder": "新建文件夹", 
+      "selectAll": "选择所有"
+    }, 
+    "filePC": {
+      "export": "导入电子纸"
+    }, 
+    "mac": {
+      "displayAll": "显示所有", 
+      "hideMe": "隐藏Digital Paper App", 
+      "hideOther": "隐藏其它应用", 
+      "quit": "结束Digital Paper App"
+    }, 
+    "search": {
+      "execSearch": "搜索", 
+      "typeMark": "标记", 
+      "typeText": "文件信息", 
+      "typeTextBody": "正文", 
+      "typeTextMeta": "文件名、标题、作者"
+    }, 
+    "sync": {
+      "add": "设置同步对象文件夹。", 
+      "exec": "同步", 
+      "openDst": "打开同步对象文件夹", 
+      "remove": "解除同步设置"
+    }, 
+    "view": {
+      "changeFolder": "显示文件夹", 
+      "document": "文档列表", 
+      "folder": "文件夹", 
+      "refresh": "更新", 
+      "showUpperFolder": "前往上一级", 
+      "sort": {
+        "asc": "升序", 
+        "changeSortKey": "重新排列", 
+        "desc": "降序"
+      }
+    }
+  }, 
+  "help": {
+    "launchSupportSite": {
+      "url": {
+        "cn": "http://www.sony.net/cn/dpt-rp1/start", 
+        "jp": "http://www.sony.co.jp/dpt-rp1/start", 
+        "us": "http://www.sony.net/dpt-rp1/start"
+      }
+    }, 
+    "onlineHelp": {
+      "url": "http://www.sony.net/cn/dpt-rp1/help"
+    }
+  }, 
+  "menu": {
+    "category": {
+      "display": "显示", 
+      "edit": "编辑", 
+      "file": "文件", 
+      "help": "帮助", 
+      "tool": "工具"
+    }
+  }, 
+  "page": {
+    "installCert": {
+      "description": "安全连接电子纸需在计算机上安装证书。<br/>\n<br/>\n按下[下一步]，将安装电子纸发行的证书。<br/>\n根据不同的操作系统，可能要求进行确认。<br/>\n不得将安装的证书用于与匹配电子纸通信以外的其他用途。"
+    }, 
+    "pairing": {
+      "description": "在电子纸中输入所显示的认证代码。<br/>\n<br/>\n请在下述文本框中输入匹配电子纸画面所显示的认证代码，并按[下一步]按钮。", 
+      "label": {
+        "authCode": "认证代码"
+      }
+    }, 
+    "setupComplete": {
+      "button": {
+        "close": "完成"
+      }, 
+      "description": "与电子纸的匹配完成。<br/>\n<br/>\n继续注册产品。<br/>\n为完善对购买产品顾客的支持，建议进行产品注册。我们将面向已完成产品注册的顾客发送便捷使用方法及产品相关促销活动信息。", 
+      "header": "完成", 
+      "intro": {
+        "jp": "与电子纸的匹配完成。<br/>\n<br/>\n电子纸产品信息网站中将为您介绍电子纸相关最新信息及便捷使用方法。", 
+        "us": "与电子纸的匹配完成。"
+      }, 
+      "url": {
+        "cn": "http://www.sony.net/cn/dpt-rp1/start", 
+        "jp": "http://www.sony.co.jp/dpt-rp1/start", 
+        "regcn": "http://www.sony.net/cn/dpt-rp1/register", 
+        "regjp": "http://www.sony.jp/digital-paper/support/touroku/"
+      }
+    }, 
+    "welcomeConnection": {
+      "description": "与电子纸进行匹配。<br/>\n<br/>\n与电子纸匹配后，可与该电子纸间进行文件传输。", 
+      "header": "与电子纸匹配"
+    }, 
+    "wifiConf": {
+      "bt": {
+        "message": "计算机与电子纸的连接亦需使用Bluetooth功能。使用方法请浏览下述URL。", 
+        "url": {
+          "cn": "http://www.sony.net/cn/dpt-rp1/bt", 
+          "jp": "http://www.sony.co.jp/dpt-rp1/bt", 
+          "us": "http://www.sony.net/dpt-rp1/bt"
+        }
+      }, 
+      "description": "设置电子纸需连接的Wi-Fi网络。<br/>\n<br/>\n使用Wi-Fi实现电子纸与计算机间的连接，需双方连接到相同网络。", 
+      "header": "Wi-Fi网络设置", 
+      "manual": {
+        "label": "手动设置Wi-Fi网络"
+      }, 
+      "message": {
+        "wait": "请稍等..."
+      }, 
+      "select": {
+        "description": "请从电子纸可使用的Wi-Fi网络列表中进行选择。", 
+        "label": "从列表中选择", 
+        "refresh": "更新列表"
+      }, 
+      "wps": {
+        "description": "使用Wi-Fi Protected Setup™ 按钮方式、或Wi-Fi Protected Setup™ PIN方式进行设置。", 
+        "label": "使用Wi-Fi Protected Setup™"
+      }
+    }, 
+    "wifiDetail": {
+      "connected": "已设置Wi-Fi网络。", 
+      "description": {
+        "manual": "设置Wi-Fi网络。<br/>\n请输入必要项目，并按[下一步]。", 
+        "wps": "请选择Wi-Fi Protected Setup™ 方式。", 
+        "wpsPin": "通过Wi-Fi Protected Setup™ PIN 方式设置。<br/>\n按[下一步]按钮后，生成PIN代码。<br/>\n请在2分钟以内，于Wi-Fi路由器中输入所显示的PIN代码。", 
+        "wpsPush": "通过Wi-Fi Protected Setup™ 按钮方式设置。<br/>\n请按下Wi-Fi路由器Wi-Fi Protected Setup™按钮，并在2分钟以内按[下一步]按钮。"
+      }, 
+      "dpStatus": {
+        "label": "电子纸Wi-Fi连接状况", 
+        "ssid": {
+          "label": "SSID"
+        }, 
+        "status": {
+          "connect": "已连接", 
+          "connecting": "连接中", 
+          "disconnect": "未连接", 
+          "label": "连接状况"
+        }
+      }, 
+      "label": {
+        "connectFailed": "失败", 
+        "connectSucceeded": "成功", 
+        "resultConnect": "连接结果 :", 
+        "savedInfo": "已保存的Wi-Fi网络信息", 
+        "wpsPin": "Wi-Fi Protected Setup™ PIN 方式", 
+        "wpsPush": "Wi-Fi Protected Setup™ 按钮方式"
+      }, 
+      "manual": {
+        "caCert": {
+          "button": {
+            "install": "安装证书"
+          }
+        }, 
+        "eapMethod": {
+          "peap": "PEAP", 
+          "tls": "TLS"
+        }, 
+        "label": {
+          "anonymousIdentity": "匿名访问用户名", 
+          "caCert": "CA 证书", 
+          "dns1": "主DNS", 
+          "dns2": "次DNS", 
+          "eapMethod": "EAP方式", 
+          "gateway": "网关", 
+          "identity": "用户名", 
+          "ipAddr": "IP 地址", 
+          "macAddr": "电子纸Mac地址", 
+          "noDhcp": "手动设置IP地址", 
+          "password": "密码", 
+          "phase2auth": "阶段2认证方式", 
+          "secMethod": "安全方式", 
+          "ssid": "SSID", 
+          "subnetmask": "子网掩码", 
+          "userCert": "用户证书"
+        }, 
+        "password": {
+          "button": {
+            "show": "显示密码"
+          }
+        }, 
+        "phase2auth": {
+          "gtc": "GTC", 
+          "mschapv2": "MSCHAPV2", 
+          "none": "无"
+        }, 
+        "secMethod": {
+          "8021xEap": "802.1x EAP (AES)", 
+          "open": "开放系统认证", 
+          "wpa2Psk": "WPA2-PSK (AES)"
+        }, 
+        "userCert": {
+          "button": {
+            "install": "安装证书"
+          }, 
+          "install": "用户证书"
+        }
+      }, 
+      "result": {
+        "prompt": "重新设置时，请按[返回]按钮。<br/>\n直接结束时，请按[下一步]按钮。"
+      }, 
+      "status": {
+        "description": "无论电子纸是否处于可接受信号的范围内，Wi-Fi连接处于“未连接”或“连接中”状态时，所保存的信息可能不正确。请按下[返回]后确认设置。<br/>\n<br/>\n直接结束时，请按[下一步]按钮。可在以后于“设置”画面进行Wi-Fi网络设置。"
+      }, 
+      "wpsPin": {
+        "countDown": "请在2分钟内，在无线路由器中输入以下PIN代码。", 
+        "label": {
+          "PinCode": "PIN"
+        }, 
+        "remainTime": "剩余 {{time}} 秒"
+      }, 
+      "wpsPush": {
+        "countDown": "请在2分钟内按下无线LAN路由器的Wi-Fi Protected Setup™ 按钮。", 
+        "remainTime": "剩余 {{time}} 秒"
+      }
+    }
+  }, 
+  "print2dp": {
+    "menu": {
+      "mac": "将PDF文档打印到电子纸"
+    }
+  }, 
+  "searchDp": {
+    "connect": {
+      "usb": "USB", 
+      "usbWifi": "USB , 无线", 
+      "wifi": "无线"
+    }, 
+    "description": "请选择使用的电子纸。<br/>\n可通过电子纸的[设置] - [关于本设备] - [设备信息]确认设备 ID。", 
+    "label": {
+      "connect": "连接", 
+      "pairingStatus": "匹配", 
+      "serialNo": "设备 ID"
+    }, 
+    "noDp": "未能找到电子纸。", 
+    "paired": "已匹配", 
+    "title": "Digital Paper App"
+  }, 
+  "state": {
+    "dp": {
+      "capacity": {
+        "mid": "/", 
+        "unit": {
+          "giga": "GB", 
+          "mega": "MB"
+        }
+      }, 
+      "connected": "已连接", 
+      "disconnected": "未连接", 
+      "noRegist": "未设置", 
+      "sync": {
+        "guide": "同步设置方法", 
+        "last": {
+          "label": "更新", 
+          "nodata": "-"
+        }, 
+        "urlGuide": "http://www.sony.net/cn/dpt-rp1/sync"
+      }
+    }
+  }, 
+  "sync": {
+    "introduce": {
+      "goNext": "选择文件夹", 
+      "message": "电子纸中被选择的的文件夹与计算机中被选择的文件夹进行同步。<br/>\n同步后、选择的2个文件夹中的内容相同。", 
+      "title": "设置同步对象文件夹。"
+    }, 
+    "ngResult": {
+      "message": "无法执行以下文件夹及文件的同步。", 
+      "proc": {
+        "DPadd": "无法添加到电子纸。", 
+        "DPdelete": "无法删除电子纸中的文件。", 
+        "DPnewFolder": "无法在电子纸中创建文件夹。", 
+        "DPnoRoot": "电子纸中未能找到同步设置的文件夹。", 
+        "DPupdate": "无法更新电子纸中的文件。", 
+        "PCadd": "无法添加至计算机。", 
+        "PCdelete": "无法删除计算机的文件。", 
+        "PCnewFolder": "无法在计算机中创建文件夹。", 
+        "PCnoRoot": "计算机中未能找到同步设置的文件夹。", 
+        "PCupdate": "无法更新计算机文件。", 
+        "add": "传送 (新)", 
+        "delete": "删除", 
+        "newFolder": "创建文件夹", 
+        "noRoot": "确认同步对象文件夹", 
+        "update": "传送 (覆盖)"
+      }, 
+      "title": "同步", 
+      "toDP": {
+        "caption": "同步到电子纸失败的计算机文档", 
+        "label": {
+          "fileList": "计算机文件", 
+          "process": "错误消息"
+        }
+      }, 
+      "toPC": {
+        "caption": "同步到计算机失败的电子纸文档", 
+        "label": {
+          "fileList": "电子纸文档", 
+          "process": "错误消息"
+        }
+      }
+    }
+  }, 
+  "toolbar": {
+    "bluetooth": {
+      "connect": "连接"
+    }, 
+    "sync": {
+      "exec": "同步"
+    }
+  }, 
+  "tooltip": {
+    "sync": {
+      "pcpath": "同步对象"
+    }, 
+    "toolbar": {
+      "createFolder": "新建文件夹", 
+      "delete": "删除", 
+      "import": "从电子纸中取出", 
+      "sync": "与计算机同步", 
+      "syncadd": "设置同步对象文件夹。"
+    }
+  }, 
+  "update": {
+    "button": {
+      "agreeUpdate": "同意上述内容并升级。", 
+      "execUpdate": "立即升级", 
+      "later": "稍后升级"
+    }, 
+    "currentVersion": {
+      "value": "{{versionCurrent}}"
+    }, 
+    "eula": {
+      "cancel": "取消", 
+      "description": "请仔细阅读以下使用许可协议。", 
+      "next": "下载", 
+      "radio": {
+        "accept": "同意使用许可协议条款", 
+        "deny": "不同意使用许可协议条款"
+      }, 
+      "title": "使用许可协议"
+    }, 
+    "label": {
+      "currentVersion": "当前版本", 
+      "disclaimer": "免责事项", 
+      "updateInfo": "升级内容"
+    }, 
+    "message": {
+      "newApp": "发现最新Digital Paper App 版本　{{versionNew}} 。", 
+      "newDp": "发现最新电子纸系统（版本　 {{versionNew}} ）。"
+    }, 
+    "progress": {
+      "downloadFile": "正在下载升级文件. . .", 
+      "remainTime": "剩余时间（估计）", 
+      "slash": "/", 
+      "title": "软件升级", 
+      "transferFile": "正在向电子纸传送升级文件. . ."
+    }, 
+    "title": "Digital Paper App"
+  }, 
+  "wifi": {
+    "netmask": {
+      "list": {
+        "mask0": "0.0.0.0", 
+        "mask1": "128.0.0.0", 
+        "mask10": "255.192.0.0", 
+        "mask11": "255.224.0.0", 
+        "mask12": "255.240.0.0", 
+        "mask13": "255.248.0.0", 
+        "mask14": "255.252.0.0", 
+        "mask15": "255.254.0.0", 
+        "mask16": "255.255.0.0", 
+        "mask17": "255.255.128.0", 
+        "mask18": "255.255.192.0", 
+        "mask19": "255.255.224.0", 
+        "mask2": "192.0.0.0", 
+        "mask20": "255.255.240.0", 
+        "mask21": "255.255.248.0", 
+        "mask22": "255.255.252.0", 
+        "mask23": "255.255.254.0", 
+        "mask24": "255.255.255.0", 
+        "mask25": "255.255.255.128", 
+        "mask26": "255.255.255.192", 
+        "mask27": "255.255.255.224", 
+        "mask28": "255.255.255.240", 
+        "mask29": "255.255.255.248", 
+        "mask3": "224.0.0.0", 
+        "mask30": "255.255.255.252", 
+        "mask31": "255.255.255.254", 
+        "mask32": "255.255.255.255", 
+        "mask4": "240.0.0.0", 
+        "mask5": "248.0.0.0", 
+        "mask6": "252.0.0.0", 
+        "mask7": "254.0.0.0", 
+        "mask8": "255.0.0.0", 
+        "mask9": "255.128.0.0"
+      }
+    }, 
+    "secMethod": {
+      "8021xEap": "802.1x EAP (AES)", 
+      "open": "开放系统认证", 
+      "wpa2Psk": "WPA2-PSK (AES)"
+    }, 
+    "ssid": "SSID", 
+    "status": {
+      "connect": "已连接", 
+      "connecting": "连接中", 
+      "disconnect": "未连接"
+    }
+  }, 
+  "wizard": {
+    "connect": {
+      "header": "连接电子纸"
+    }
+  }
+}

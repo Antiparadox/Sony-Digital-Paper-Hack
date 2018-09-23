@@ -1,0 +1,35 @@
+{
+  "name": "DigitalPaperAppCustomizedByAntiparadox",
+  "description": "PC application for Digital Paper",
+  "version": "0.3.0",
+  "private": true,
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LinfinyJapan/dps_digitalpaperapp-pc"
+  },
+  "bugs": {
+    "url": "https://github.com/LinfinyJapan/dps_digitalpaperapp-pc/issues"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "build": "sh -c 'cd grunt; grunt build'",
+    "electron_build": "./script/electron_node_gyp.sh"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "mw-auto-bt-pan-connector": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-auto-bt-pan-connector",
+    "mw-automagic-client": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-automagic-client.git",
+    "mw-conn-ctrl": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-conn-ctrl.git",
+    "mw-conn-selector": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-conn-selector.git",
+    "mw-error": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-error.git",
+    "mw-file-transfer": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-file-transfer.git",
+    "mw-reg-ctrl": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-reg-ctrl.git",
+    "mw-usb-initiator": "git+ssh://git@github.com:LinfinyJapan/dps_node-mw-usb-initiator.git",
+    "semver": "^5.3.0",
+    "sqlite3": "^3.1.8",
+    "winston": "^2.3.0"
+  }
+}

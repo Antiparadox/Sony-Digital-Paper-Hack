@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>firmware loader</title>
+</head>
+<body>
+<h1>Please Load Firmware first</h1><br>
+<input type = "button" id = "btn-loadfile" value = "Select a file to load from" />
+<p id = "myheader">only official firmwares are supported at this moment</p><br>
+<button onclick="Generate()">Flash</button>
+</body>
+
+<script>
+    const fs = require('fs');
+    const{dialog}  = require('electron').remote;
+
+    document.getElementById("btn-loadfile").addEventListener("click", () => {
+        dialog.showOpenDialog((fileNames) => {
+            if(fileNames === undefined){
+                console.log("No files were selected");
+                return;
+    }
+            fs.readFile(fileNames[0], "utf-8", (err, data) => {
+            if(err){
+                console.log("Cannot Read File", err);
+                return;
+            }
+            console.log('file selected');
+            //console.log(data);
+            console.log(fileNames[0]);
+            userfilepath = fileNames[0];
+            document.getElementById("myHeader").innerHTML = "firmwareloaded";
+            alert("begin flashing");
+
+           // var softwareUpdateHandler = DPMW.View.Explorer.Handler.softwareUpdateHandler;
+            //softwareUpdateHandler.startSoftwareUpdate();
+
+    });
+    });
+    }, false);
+
+    function Generate() {
+        if(filepath ===undefined){
+            alert('No firmware selected so far')
+            return;
+        }
+        document.getElementById("myHeader").innerHTML = "firmware loaded";
+        console.log('prepare ');
+        console.log('loading firmware from:');
+        console.log(userfilepath);
+        console.log('begin flashing');
+        //var softwareUpdateHandler = DPMW.View.Explorer.Handler.softwareUpdateHandler;
+        //softwareUpdateHandler.startSoftwareUpdate();
+
+    }
+</script>
+</html>

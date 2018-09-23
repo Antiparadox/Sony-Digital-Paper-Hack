@@ -1,0 +1,228 @@
+/* line 1, _base.scss */
+body {
+  height: 100%;
+  font-family: Arial,Helvetica,sans-serif;
+  overflow: auto;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 16, _base.scss */
+body article .ui-btn, body article .ui-slider {
+  z-index: 2;
+}
+/* line 20, _base.scss */
+body article section.normal-screen {
+  padding: 0;
+}
+/* line 23, _base.scss */
+body article section.fullscreen {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 32, _base.scss */
+body article section.fixed-screen {
+  position: absolute;
+  padding: 0;
+  top: 45px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 3, external_output.scss */
+html, body, #external-output-view {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #202020;
+}
+
+/* line 10, external_output.scss */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 14, external_output.scss */
+#screen-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+/* line 22, external_output.scss */
+#screen-header {
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+/* line 30, external_output.scss */
+#screen-article {
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+
+/* line 37, external_output.scss */
+#screen {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 49, external_output.scss */
+#focus-holder-button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1;
+  height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0.0;
+}
+
+/* line 61, external_output.scss */
+#toast {
+  position: fixed;
+  display: none;
+  z-index: 3;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate3d(-50%, -80%, 0);
+  transform: translate3d(-50%, -80%, 0);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 15px;
+  padding: 8px 15px;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+/* line 83, external_output.scss */
+#debug-board {
+  position: fixed;
+  display: none;
+  z-index: 10;
+  width: auto;
+  height: auto;
+  left: 16px;
+  top: 10px;
+  background: #00f;
+  color: #fff;
+  padding: 8px 8px;
+  border: 1px solid #fff;
+  font-size: 12px;
+}
+
+/* line 99, external_output.scss */
+#error-board {
+  position: fixed;
+  display: none;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  background: transparent;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  font-size: 12px;
+}
+
+/* line 132, external_output.scss */
+div#operation {
+  height: 36px;
+  float: right;
+  vertical-align: middle;
+  right: 0px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+/* line 145, external_output.scss */
+div#operation .outline-clear:focus {
+  outline: none;
+}
+/* line 148, external_output.scss */
+div#operation div.btn {
+  margin-right: 4px;
+  display: flex;
+}
+/* line 152, external_output.scss */
+div#operation div.btn:focus {
+  outline: 2px solid #49D2FF;
+}
+/* line 155, external_output.scss */
+div#operation div.btn.outline-clear:focus {
+  outline: none;
+}
+/* line 158, external_output.scss */
+div#operation .btn-disabled {
+  opacity: 0.2;
+  cursor: default !important;
+  pointer-events: none;
+}
+/* line 163, external_output.scss */
+div#operation img {
+  width: 24px;
+  height: 24px;
+  margin-top: 7px;
+  margin-left: 8px;
+}
+/* line 169, external_output.scss */
+div#operation label.btn-lbl {
+  font-size: 12px;
+  color: #333333;
+  margin-top: 12px;
+  margin-left: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+/* line 177, external_output.scss */
+div#operation label.btn-lbl:hover {
+  font-size: 12px;
+  color: #5C5C5C;
+}
+/* line 181, external_output.scss */
+div#operation label.btn-lbl:active {
+  font-size: 12px;
+  color: #1A1A1A;
+}
