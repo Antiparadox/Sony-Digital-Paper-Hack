@@ -1,4 +1,4 @@
-2018922 Beta V1.0
+2018109 Beta V1.1
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// This is a customized Digital Paper App for loading any firmware into Sony Digital Paper | DPT-RP1 / DPT-CP1
 
@@ -19,5 +19,11 @@ You can download the official firmware update for DPT-RP1 under firmware 1.4.01,
 This is only tested on MacOS, success is not guaranteed on Windows and other OS.
 
 Load your firmware at your own risk, you may potentially lose your warranty for this device.
+
+20181121 
+Thanks to  shankerzhiwu and his/her friend at XDA( who discover the special id resistor to crack Diag)  yanzi( who wrote the complete step-by-step Interactive py) janten( who initiates the commandline tool for web APIs), this device has been rooted.
+Please refer to https://github.com/HappyZ/dpt-tools  for complete tutorial.
+
+
 
 Antiparadox//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
