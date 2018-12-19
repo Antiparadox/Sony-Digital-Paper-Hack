@@ -1,5 +1,6 @@
 20181121 
 Special Thanks to  shankerzhiwu and his/her friend at XDA( who discover the special id resistor to crack Diag)  yanzi(HappyZ)( who wrote the complete step-by-step Interactive py) janten( who initiates the commandline tool for web APIs), this device has been rooted.
+We'll keep working on optimizing user experience and implementing additional features for DPT, so please stay curious.
 Please refer to https://github.com/HappyZ/dpt-tools  for complete tutorial.
 
 
